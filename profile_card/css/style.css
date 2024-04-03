@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+.pc_wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #E8DFFD;
+    
+}
+.profile_card{
+    width: 400px;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+.pc_img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #7943f7;
+}
+.pc_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.pc_content{
+    text-align: center;
+}
+.pc_content .name{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #222;
+}
+.pc_content .Occupation{
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 1.3;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.pc_content p{
+    color: #444;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.coninfo ul {
+    margin-top: 20px;
+}
+.coninfo ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.coninfo ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
